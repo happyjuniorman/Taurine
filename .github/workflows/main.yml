@@ -32,7 +32,7 @@ jobs:
           zip -r9 Taurine.ipa Payload/Taurine.app
           
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@6
+        uses: actions/upload-artifact@v7
         with:
          name: Taurine.ipa
          path: "Taurine.ipa"
